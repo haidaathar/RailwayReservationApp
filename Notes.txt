@@ -1,0 +1,39 @@
+Railway Reservation System: 
+
+MVP: minimum viable product
+
+
+Submission Date: 01/05/2024
+
+BRS:
+
+Two Modules 
+
+1) Admin 
+	> Can manage employees 
+		>> employee registration 
+			* Employee Basic Information			
+			* Department 
+			* Salary Related
+			* Role will be assigned by Admin	
+			
+	> Train Scehdule 
+		>> No of Trains  and Routes 
+		>> Timings 
+		>> Fare Management 
+		
+
+	> Reservation 
+		>> Can Reserve Tickets for Passengers 
+		>> Can Change Reservation
+		>> Advance Booking Module 
+		>> Give Rights to other users to make reservation
+		>> Give Rights To Users to issue tickets 
+		
+
+
+	> Reporting
+
+	
+
+2) User
