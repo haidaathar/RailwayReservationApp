@@ -9,21 +9,66 @@ BRS:
 
 Two Modules 
 
-1) Admin 
+1) Users / Admin
+	> UserName
+	> LoginName
+	> Password
+	> Role  { Admin/ User }	
+       
 	> Can manage employees 
 		>> employee registration 
-			* Employee Basic Information			
-			* Department 
-			* Salary Related
-			* Role will be assigned by Admin	
+			* Employee Basic Information	
+				>ID { PK , System generated}
+				> NIC { Optional and can be used as ID }
+				> First Name 
+				> LastName
+				> Address
+				> Phone
+				> Mobile
+				> Email Address
+
+				> Department   { FK  / PK-Designation }
+				> Designation
+				> Salary
+
+		
+			* Department  
+				> ID  { PK , System generated }
+	                                                      > DepartmnentName
+
+			* Designation { enums create }				
+                                                                                                                                                                                                                                                           
+			* Salary Related { not Included in MVP }
+
+			* Role will be assigned by Admin  { //TODO }	
 			
 	> Train Scehdule 
-		>> No of Trains  and Routes 
+		>> Trains
+			ID  { PK , System generated}
+			TrainName
+			 
+		>> RouteUp 
+			ID
+			From 
+			To
+			Type { Up, Down }
+			Time
+		>> RouteDown
+			ID
+			From
+			To
+			Time
+		>> Route Stop Details
+			ID
+			Station
+			Distance
+			RourteID { FK from Route }
+			  
 		>> Timings 
-		>> Fare Management 
+		>> Fare Management  { TODO }
 		
 
-	> Reservation 
+	> Reservation Operations
 		>> Can Reserve Tickets for Passengers 
 		>> Can Change Reservation
 		>> Advance Booking Module 
