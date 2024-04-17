@@ -34,7 +34,7 @@ Two Modules
 		
 			* Department  
 				> ID  { PK , System generated }
-	                                                      > DepartmnentName
+	                        > DepartmnentName
 
 			* Designation { enums create }				
                                                                                                                                                                                                                                                            
@@ -44,26 +44,33 @@ Two Modules
 			
 	> Train Scehdule 
 		>> Trains
-			ID  { PK , System generated}
-			TrainName
-			 
-		>> RouteUp 
+			ID  { PK , System generated} number
+			TrainName varchar(255)
+			DepatureFrom varchar(255)
+			Destination varchar(255)
+			DepartureTime Time
+			ArrivalTime Time
+		>> Route
+			ID {Pk, System generated} number  
+			To varchar(255)
+			From varchar(255)
+			Distance varchar(255)
+			FixedFare number
+			TrainId {FK-Trains} number
+		>> Department
 			ID
-			From 
-			To
-			Type { Up, Down }
-			Time
-		>> RouteDown
+			DepartmentName
+		>> Designation
 			ID
-			From
-			To
-			Time
-		>> Route Stop Details
-			ID
-			Station
-			Distance
-			RourteID { FK from Route }
-			  
+			Designation
+		>> Entities
+			User
+			Trains
+			Route
+			Employee
+			Department
+			Designation				
+		
 		>> Timings 
 		>> Fare Management  { TODO }
 		
