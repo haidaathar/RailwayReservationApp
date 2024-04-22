@@ -12,7 +12,7 @@ namespace RailwayReservationLibrary.Entities
         public string Name { get; set; }
         public string DepartureFrom { get; set; }
         public string Destination { get; set; }
-        public Datetime DepartureTime { get; set; }
-        public Datetime ArrivalTime { get; set; }
+        public DateTime DepartureTime { get; set; }
+        public DateTime ArrivalTime { get; set; }
     }
 }

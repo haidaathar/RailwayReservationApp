@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace RailwayReservationLibrary.Entities
 {
-    public class Route
+    public class Users
     {
         public int Id { get; set; }
-        public string From { get; set; }
-        public string To { get; set; }
-        public int FixedFare { get; set; }
-        public int TrainId { get; set; }
+        public string FirstName { get; set; }
+        public string Lastname { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
     }
 }

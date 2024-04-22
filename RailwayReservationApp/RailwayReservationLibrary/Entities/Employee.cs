@@ -8,7 +8,7 @@ namespace RailwayReservationLibrary.Entities
 {
     public class Employee
     {
-        public int EmpId { get; set; }
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string CNIC { get; set; }
@@ -17,6 +17,6 @@ namespace RailwayReservationLibrary.Entities
         public string Email { get; set; }
         public string Department { get; set; }
         public string Designation { get; set; }
-        public double Salary { get; set; }
+        public int Salary { get; set; }
     }
 }
