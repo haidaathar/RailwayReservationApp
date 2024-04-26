@@ -22,7 +22,8 @@ namespace RailwayReservationLibrary.DataAccess
                 return connection;
             }
             catch (Exception exception)
-            {                
+            {   
+                exception.ToString();
                 return new SqlConnection();
             }                                     
         }

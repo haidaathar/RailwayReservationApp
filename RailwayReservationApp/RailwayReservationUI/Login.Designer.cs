@@ -95,7 +95,7 @@
             btnClose.FlatAppearance.BorderSize = 0;
             btnClose.FlatAppearance.MouseOverBackColor = Color.DarkSlateGray;
             btnClose.FlatStyle = FlatStyle.Flat;
-            btnClose.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnClose.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnClose.ForeColor = SystemColors.ActiveCaption;
             btnClose.Location = new Point(442, 0);
             btnClose.Name = "btnClose";
@@ -128,18 +128,18 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.GradientActiveCaption;
-            label2.Location = new Point(295, 259);
+            label2.Location = new Point(206, 259);
             label2.Name = "label2";
-            label2.Size = new Size(153, 17);
+            label2.Size = new Size(246, 17);
             label2.TabIndex = 2;
-            label2.Text = "Designed By Hadia Athar";
+            label2.Text = "Designed and Developed By Hadia Athar";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ActiveCaption;
             label1.Location = new Point(70, 63);
             label1.Name = "label1";
@@ -198,9 +198,9 @@
             btnLogin.FlatAppearance.BorderSize = 0;
             btnLogin.FlatAppearance.MouseOverBackColor = Color.DarkSlateGray;
             btnLogin.FlatStyle = FlatStyle.Flat;
-            btnLogin.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLogin.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnLogin.ForeColor = SystemColors.GradientActiveCaption;
-            btnLogin.Location = new Point(194, 507);
+            btnLogin.Location = new Point(194, 521);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(120, 40);
             btnLogin.TabIndex = 5;
@@ -214,9 +214,9 @@
             btnClear.FlatAppearance.BorderSize = 0;
             btnClear.FlatAppearance.MouseOverBackColor = Color.DarkSlateGray;
             btnClear.FlatStyle = FlatStyle.Flat;
-            btnClear.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnClear.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnClear.ForeColor = SystemColors.GradientActiveCaption;
-            btnClear.Location = new Point(323, 507);
+            btnClear.Location = new Point(323, 521);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(120, 40);
             btnClear.TabIndex = 5;
@@ -228,7 +228,7 @@
             // 
             txtUserName.BackColor = Color.FromArgb(21, 30, 54);
             txtUserName.BorderStyle = BorderStyle.None;
-            txtUserName.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtUserName.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtUserName.ForeColor = SystemColors.GradientInactiveCaption;
             txtUserName.Location = new Point(85, 358);
             txtUserName.Margin = new Padding(10, 3, 3, 3);
@@ -243,7 +243,7 @@
             // 
             txtPassword.BackColor = Color.FromArgb(21, 30, 54);
             txtPassword.BorderStyle = BorderStyle.None;
-            txtPassword.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtPassword.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             txtPassword.ForeColor = SystemColors.GradientInactiveCaption;
             txtPassword.Location = new Point(85, 441);
             txtPassword.Margin = new Padding(10, 3, 3, 3);
@@ -258,7 +258,7 @@
             // lblError
             // 
             lblError.AutoSize = true;
-            lblError.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblError.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             lblError.ForeColor = Color.IndianRed;
             lblError.Location = new Point(116, 309);
             lblError.Name = "lblError";
@@ -271,7 +271,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(21, 30, 54);
             BackgroundImageLayout = ImageLayout.Zoom;
-            ClientSize = new Size(465, 613);
+            ClientSize = new Size(465, 595);
             Controls.Add(lblError);
             Controls.Add(txtPassword);
             Controls.Add(txtUserName);
